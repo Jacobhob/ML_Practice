@@ -1,0 +1,1578 @@
+KnnTraining.source_file: wisc_bc_data.csv.
+KnnTraining.raw_data is updated.
+KnnTraining.raw_data: Label extracted.
+KnnTraining.raw_data: Successfully normalized working set.
+Removing NULL head...
+KnnTraining.data_set: 569 entries added in total.
+
+1     @Label: B ||@Data: 0.252685881963 0.0906323977...
+2     @Label: B ||@Data: 0.171281177529 0.3124788637...
+3     @Label: B ||@Data: 0.192105636802 0.2407845789...
+4     @Label: B ||@Data: 0.20346443277 0.12445045654...
+5     @Label: B ||@Data: 0.388518150409 0.1183632059...
+6     @Label: B ||@Data: 0.217189644564 0.3155224890...
+7     @Label: B ||@Data: 0.214349945572 0.4808927967...
+8     @Label: M ||@Data: 0.323205073596 0.4748055461...
+9     @Label: B ||@Data: 0.16607506271 0.32397700372...
+10    @Label: B ||@Data: 0.193052203133 0.1775448089...
+dtype: object
+Random shuffle data set...
+KnnTraining.data_train/.data_test are set.
+Training test data......
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.778800
+std      0.476485
+min      0.158860
+25%      0.422690
+50%      0.621228
+75%      1.036273
+max      2.911374
+@votes summary:
+Label
+B    17.165568
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.032688
+std      0.534339
+min      0.202808
+25%      0.624395
+50%      0.882176
+75%      1.377387
+max      3.149485
+@votes summary:
+Label
+B    15.964256
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.908246
+std      0.361201
+min      0.324998
+25%      0.664307
+50%      0.840167
+75%      1.063293
+max      2.888093
+@votes summary:
+Label
+B    14.205926
+M     0.695429
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.930398
+std      0.297812
+min      0.283822
+25%      0.745125
+50%      0.892977
+75%      1.072758
+max      2.612570
+@votes summary:
+Label
+B     4.106797
+M    10.466640
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.079244
+std      0.526184
+min      0.262142
+25%      0.674100
+50%      0.924711
+75%      1.413578
+max      3.235907
+@votes summary:
+Label
+B    14.750355
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.820210
+std      0.401709
+min      0.291965
+25%      0.528222
+50%      0.699487
+75%      1.006665
+max      2.851306
+@votes summary:
+Label
+B    14.856496
+M     0.739543
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.000406
+std      0.279895
+min      0.417309
+25%      0.804144
+50%      0.988085
+75%      1.172194
+max      2.262719
+@votes summary:
+Label
+M    13.834575
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.904272
+std      0.324293
+min      0.386880
+25%      0.693907
+50%      0.835883
+75%      1.018338
+max      2.803527
+@votes summary:
+Label
+B    14.097057
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.799821
+std      0.405352
+min      0.239210
+25%      0.502757
+50%      0.664815
+75%      0.982661
+max      2.774219
+@votes summary:
+Label
+B    15.783429
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.032008
+std      0.462672
+min      0.229574
+25%      0.706735
+50%      0.887917
+75%      1.288166
+max      3.232949
+@votes summary:
+Label
+B    14.815047
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.911642
+std      0.478782
+min      0.276049
+25%      0.554446
+50%      0.743624
+75%      1.177289
+max      3.109762
+@votes summary:
+Label
+B    15.449764
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.185550
+std      0.346080
+min      0.383457
+25%      0.911730
+50%      1.237992
+75%      1.437985
+max      2.294540
+@votes summary:
+Label
+M    13.606634
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.215396
+std      0.291507
+min      0.511663
+25%      1.020800
+50%      1.224664
+75%      1.410103
+max      2.578311
+@votes summary:
+Label
+B     0.627236
+M    12.382945
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.892244
+std      0.447208
+min      0.264616
+25%      0.559337
+50%      0.714553
+75%      1.125422
+max      2.893076
+@votes summary:
+Label
+B    14.970382
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.795987
+std      0.434318
+min      0.233133
+25%      0.491093
+50%      0.655368
+75%      1.012125
+max      2.896983
+@votes summary:
+Label
+B    16.35041
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.130002
+std      0.369346
+min      0.588209
+25%      0.871348
+50%      1.019642
+75%      1.293571
+max      2.688629
+@votes summary:
+Label
+B    11.824364
+M     0.578426
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.831071
+std      0.500313
+min      0.191151
+25%      0.458299
+50%      0.678895
+75%      1.118121
+max      2.989639
+@votes summary:
+Label
+B    16.846843
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.178011
+std      0.380852
+min      0.267428
+25%      0.896822
+50%      1.252815
+75%      1.449468
+max      2.232352
+@votes summary:
+Label
+M    14.753674
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.901481
+std      0.267191
+min      0.389097
+25%      0.726351
+50%      0.869335
+75%      1.024467
+max      2.364856
+@votes summary:
+Label
+B     0.647734
+M    13.436524
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.813353
+std      0.362099
+min      0.249656
+25%      0.568455
+50%      0.714667
+75%      0.961630
+max      2.579419
+@votes summary:
+Label
+B    10.222044
+M     5.134949
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.980836
+std      0.442393
+min      0.220565
+25%      0.675420
+50%      0.866214
+75%      1.194598
+max      2.961948
+@votes summary:
+Label
+B    14.111602
+M     1.419554
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.884493
+std      0.445753
+min      0.229555
+25%      0.562419
+50%      0.754434
+75%      1.133850
+max      2.977927
+@votes summary:
+Label
+B    16.046787
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.467658
+std      0.341097
+min      0.606977
+25%      1.203914
+50%      1.503433
+75%      1.729097
+max      2.397319
+@votes summary:
+Label
+M    11.755473
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.317148
+std      0.225116
+min      0.634290
+25%      1.160746
+50%      1.331584
+75%      1.454361
+max      2.522523
+@votes summary:
+Label
+B    6.559889
+M    4.866459
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.827735
+std      0.448133
+min      0.190131
+25%      0.500451
+50%      0.669291
+75%      1.073492
+max      2.930176
+@votes summary:
+Label
+B    16.187535
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.882603
+std      0.460184
+min      0.174353
+25%      0.547395
+50%      0.748957
+75%      1.142788
+max      2.854550
+@votes summary:
+Label
+B    16.226035
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.808288
+std      0.414045
+min      0.157155
+25%      0.524979
+50%      0.671955
+75%      0.991898
+max      2.743023
+@votes summary:
+Label
+B    14.593166
+M     1.503211
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.300472
+std      0.360942
+min      0.457160
+25%      1.006606
+50%      1.365619
+75%      1.583878
+max      2.125483
+@votes summary:
+Label
+M    13.289358
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.223675
+std      0.474287
+min      0.375776
+25%      0.874516
+50%      1.091545
+75%      1.511473
+max      3.244438
+@votes summary:
+Label
+B    13.396115
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.191467
+std      0.322272
+min      0.383486
+25%      0.987908
+50%      1.232699
+75%      1.401102
+max      2.261782
+@votes summary:
+Label
+M    13.635666
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.885560
+std      0.409021
+min      0.282945
+25%      0.602365
+50%      0.748740
+75%      1.079745
+max      2.947466
+@votes summary:
+Label
+B    14.895063
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.905462
+std      0.473535
+min      0.264697
+25%      0.564365
+50%      0.768635
+75%      1.163151
+max      2.926854
+@votes summary:
+Label
+B    16.028864
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.971837
+std      0.390039
+min      0.337114
+25%      0.713890
+50%      0.861623
+75%      1.132230
+max      3.000400
+@votes summary:
+Label
+B    14.291375
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.846467
+std      0.286317
+min      0.297633
+25%      0.668732
+50%      0.792768
+75%      0.971629
+max      2.572077
+@votes summary:
+Label
+B    8.991744
+M    5.571733
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.957202
+std      0.293717
+min      0.280155
+25%      0.781146
+50%      0.927685
+75%      1.094636
+max      2.559607
+@votes summary:
+Label
+B     1.987358
+M    12.609111
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.013382
+std      0.499677
+min      0.313707
+25%      0.624254
+50%      0.873701
+75%      1.329912
+max      3.164798
+@votes summary:
+Label
+B    15.157702
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.799426
+std      0.418884
+min      0.259188
+25%      0.508089
+50%      0.663861
+75%      1.013108
+max      2.806187
+@votes summary:
+Label
+B    16.035571
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.844907
+std      0.361580
+min      0.303370
+25%      0.600929
+50%      0.761726
+75%      0.978033
+max      2.831682
+@votes summary:
+Label
+B    14.513238
+M     0.740498
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.943111
+std      0.466352
+min      0.343215
+25%      0.607246
+50%      0.763338
+75%      1.203338
+max      3.062766
+@votes summary:
+Label
+B    14.903092
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.006012
+std      0.320263
+min      0.398556
+25%      0.814600
+50%      0.952354
+75%      1.126853
+max      2.694580
+@votes summary:
+Label
+B    9.934800
+M    3.895163
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.876022
+std      0.465009
+min      0.249557
+25%      0.527952
+50%      0.749903
+75%      1.134917
+max      2.992335
+@votes summary:
+Label
+B    16.158891
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.068345
+std      0.481564
+min      0.377671
+25%      0.710704
+50%      0.930092
+75%      1.345592
+max      3.147061
+@votes summary:
+Label
+B    14.503607
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.864832
+std      0.327674
+min      0.722350
+25%      1.696476
+50%      1.907477
+75%      2.096112
+max      3.024517
+@votes summary:
+Label
+B    0.458890
+M    9.813981
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.064632
+std      0.497048
+min      0.339869
+25%      0.690449
+50%      0.918404
+75%      1.360497
+max      3.205684
+@votes summary:
+Label
+B    14.767533
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.877781
+std      0.480582
+min      0.165760
+25%      0.521521
+50%      0.747033
+75%      1.151860
+max      3.045268
+@votes summary:
+Label
+B    16.581997
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.157095
+std      0.346833
+min      0.331071
+25%      0.885379
+50%      1.205963
+75%      1.402914
+max      2.180887
+@votes summary:
+Label
+M    14.13141
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.848306
+std      0.454828
+min      0.237559
+25%      0.517483
+50%      0.690321
+75%      1.083080
+max      2.990572
+@votes summary:
+Label
+B    15.863696
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.035586
+std      0.504528
+min      0.329116
+25%      0.649692
+50%      0.887075
+75%      1.345548
+max      3.191550
+@votes summary:
+Label
+B    14.737612
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.132902
+std      0.548742
+min      0.261111
+25%      0.717702
+50%      0.973530
+75%      1.486988
+max      3.385101
+@votes summary:
+Label
+B    14.750292
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.816857
+std      0.468589
+min      0.178184
+25%      0.473742
+50%      0.671061
+75%      1.071657
+max      2.935409
+@votes summary:
+Label
+B    16.773721
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.006679
+std      0.471371
+min      0.376840
+25%      0.659065
+50%      0.844412
+75%      1.274954
+max      3.110025
+@votes summary:
+Label
+B    14.416943
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.920021
+std      0.506684
+min      0.290895
+25%      0.534133
+50%      0.748843
+75%      1.218397
+max      3.105451
+@votes summary:
+Label
+B    15.803775
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.051005
+std      0.331280
+min      0.208570
+25%      0.841652
+50%      1.065504
+75%      1.237347
+max      2.452011
+@votes summary:
+Label
+M    15.050133
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.952478
+std      0.326860
+min      0.158638
+25%      0.726037
+50%      0.953614
+75%      1.140518
+max      2.354605
+@votes summary:
+Label
+M    15.737511
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.818925
+std      0.460021
+min      0.175293
+25%      0.487006
+50%      0.660624
+75%      1.061268
+max      2.880998
+@votes summary:
+Label
+B    15.725600
+M     0.758815
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.923142
+std      0.280855
+min      0.255002
+25%      0.725702
+50%      0.929026
+75%      1.081626
+max      2.138068
+@votes summary:
+Label
+M    15.073154
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.087093
+std      0.519623
+min      0.185230
+25%      0.698826
+50%      0.968862
+75%      1.411768
+max      3.108574
+@votes summary:
+Label
+B    15.849957
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.805295
+std      0.447136
+min      0.197846
+25%      0.485958
+50%      0.662565
+75%      1.041372
+max      2.794311
+@votes summary:
+Label
+B    16.743107
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.976903
+std      0.504169
+min      0.253420
+25%      0.602333
+50%      0.801218
+75%      1.271111
+max      3.198327
+@votes summary:
+Label
+B    15.264162
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.123257
+std      0.215629
+min      0.697582
+25%      0.975192
+50%      1.114892
+75%      1.243060
+max      2.249848
+@votes summary:
+Label
+B    2.322063
+M    9.718507
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.056235
+std      0.319246
+min      0.370663
+25%      0.821147
+50%      1.074945
+75%      1.266761
+max      2.354210
+@votes summary:
+Label
+M    14.159239
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.973667
+std      0.479323
+min      0.291689
+25%      0.610632
+50%      0.802005
+75%      1.256068
+max      3.030634
+@votes summary:
+Label
+B    14.835147
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.963272
+std      0.515687
+min      0.243162
+25%      0.567170
+50%      0.808412
+75%      1.281823
+max      3.179258
+@votes summary:
+Label
+B    15.580475
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.154911
+std      0.326075
+min      0.349443
+25%      0.927503
+50%      1.173919
+75%      1.368100
+max      2.469140
+@votes summary:
+Label
+M    13.934729
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.836095
+std      0.447432
+min      0.228457
+25%      0.517390
+50%      0.678249
+75%      1.063190
+max      2.943412
+@votes summary:
+Label
+B    15.757305
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.853159
+std      0.352767
+min      0.329668
+25%      0.633202
+50%      0.751388
+75%      0.980955
+max      2.802338
+@votes summary:
+Label
+B    14.869412
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.833503
+std      0.476127
+min      0.229798
+25%      0.492007
+50%      0.661187
+75%      1.092698
+max      3.023347
+@votes summary:
+Label
+B    16.349804
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.799581
+std      0.425708
+min      0.198919
+25%      0.497604
+50%      0.679359
+75%      1.005021
+max      2.867871
+@votes summary:
+Label
+B    16.205045
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.842787
+std      0.419469
+min      0.243474
+25%      0.542540
+50%      0.684281
+75%      1.058791
+max      2.815746
+@votes summary:
+Label
+B    15.470831
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.971801
+std      0.458620
+min      0.318957
+25%      0.636695
+50%      0.817876
+75%      1.232615
+max      3.042564
+@votes summary:
+Label
+B    14.87315
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.840672
+std      0.405531
+min      0.307914
+25%      0.561689
+50%      0.723847
+75%      1.039717
+max      2.873350
+@votes summary:
+Label
+B    14.709415
+M     0.726472
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.918572
+std      0.391375
+min      0.281355
+25%      0.655620
+50%      0.808465
+75%      1.080945
+max      2.973259
+@votes summary:
+Label
+B    14.90527
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.969555
+std      0.453046
+min      0.262891
+25%      0.654950
+50%      0.831453
+75%      1.213136
+max      3.133336
+@votes summary:
+Label
+B    15.113115
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.941161
+std      0.457307
+min      0.301597
+25%      0.611759
+50%      0.792147
+75%      1.201740
+max      3.008511
+@votes summary:
+Label
+B    15.105029
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.023083
+std      0.469659
+min      0.381598
+25%      0.672426
+50%      0.857522
+75%      1.274925
+max      3.134061
+@votes summary:
+Label
+B    14.280697
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.275641
+std      0.347208
+min      0.433765
+25%      1.017825
+50%      1.337091
+75%      1.520087
+max      2.167534
+@votes summary:
+Label
+M    13.341687
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.977349
+std      0.338008
+min      0.479782
+25%      0.743723
+50%      0.888001
+75%      1.135449
+max      2.672455
+@votes summary:
+Label
+B    8.260339
+M    5.203827
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.987931
+std      0.365746
+min      0.343625
+25%      0.740734
+50%      0.923290
+75%      1.120052
+max      2.896554
+@votes summary:
+Label
+B    12.220763
+M     1.984012
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.807876
+std      0.492913
+min      0.167514
+25%      0.439943
+50%      0.623347
+75%      1.098121
+max      2.985421
+@votes summary:
+Label
+B    16.873008
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.064121
+std      0.415513
+min      0.388462
+25%      0.782892
+50%      0.963285
+75%      1.272515
+max      3.063087
+@votes summary:
+Label
+B    14.002624
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     2.066679
+std      0.327894
+min      1.068899
+25%      1.895271
+50%      2.111658
+75%      2.285292
+max      3.048237
+@votes summary:
+Label
+B    0.409551
+M    8.776660
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.796112
+std      0.299306
+min      0.270674
+25%      0.601746
+50%      0.748483
+75%      0.925134
+max      2.552478
+@votes summary:
+Label
+B    7.265178
+M    7.920078
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.924991
+std      0.316567
+min      0.274058
+25%      0.680929
+50%      0.930462
+75%      1.112680
+max      2.190043
+@votes summary:
+Label
+M    15.399767
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.776859
+std      0.420337
+min      0.204105
+25%      0.478614
+50%      0.642306
+75%      0.984348
+max      2.850489
+@votes summary:
+Label
+B    16.292403
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.025278
+std      0.287653
+min      0.474851
+25%      0.848317
+50%      0.956663
+75%      1.122288
+max      2.684608
+@votes summary:
+Label
+B    12.245701
+M     0.591463
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.855981
+std      0.316688
+min      0.295610
+25%      0.650407
+50%      0.779846
+75%      0.982977
+max      2.629709
+@votes summary:
+Label
+B    12.581350
+M     2.059155
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.930896
+std      0.508198
+min      0.234870
+25%      0.532077
+50%      0.759339
+75%      1.238134
+max      3.115459
+@votes summary:
+Label
+B    16.036877
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.963079
+std      0.530226
+min      0.161958
+25%      0.552089
+50%      0.806963
+75%      1.295973
+max      3.098967
+@votes summary:
+Label
+B    16.228517
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.561253
+std      0.423204
+min      0.420725
+25%      1.291474
+50%      1.672790
+75%      1.847953
+max      2.623183
+@votes summary:
+Label
+M    13.088704
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.506168
+std      0.291175
+min      0.610894
+25%      1.319808
+50%      1.497365
+75%      1.668397
+max      3.140823
+@votes summary:
+Label
+B    9.302529
+M    1.470923
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.823939
+std      0.386745
+min      0.252907
+25%      0.553158
+50%      0.721387
+75%      0.996721
+max      2.702009
+@votes summary:
+Label
+B    15.043287
+M     0.754701
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.870585
+std      0.440255
+min      0.197748
+25%      0.560903
+50%      0.735464
+75%      1.089445
+max      2.951911
+@votes summary:
+Label
+B    15.933434
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.851499
+std      0.404653
+min      0.280107
+25%      0.577225
+50%      0.732275
+75%      1.028135
+max      2.938933
+@votes summary:
+Label
+B    15.578409
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.821509
+std      0.480307
+min      0.182279
+25%      0.464290
+50%      0.633302
+75%      1.105660
+max      3.001567
+@votes summary:
+Label
+B    16.443515
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.858795
+std      0.491636
+min      0.187940
+25%      0.490079
+50%      0.687243
+75%      1.143166
+max      2.976453
+@votes summary:
+Label
+B    16.346869
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.248065
+std      0.303391
+min      0.561852
+25%      1.000536
+50%      1.266031
+75%      1.482974
+max      2.044158
+@votes summary:
+Label
+M    12.560839
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.937133
+std      0.355543
+min      0.423348
+25%      0.694182
+50%      0.853417
+75%      1.090747
+max      2.578564
+@votes summary:
+Label
+B    8.828187
+M    5.479850
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     1.106310
+std      0.296973
+min      0.372998
+25%      0.911388
+50%      1.110944
+75%      1.290399
+max      2.656340
+@votes summary:
+Label
+B     1.355527
+M    12.561303
+Name: Dist, dtype: float64
+Trained label:  ['M']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.898105
+std      0.434910
+min      0.326692
+25%      0.581168
+50%      0.751647
+75%      1.127084
+max      2.984025
+@votes summary:
+Label
+B    15.021606
+Name: Dist, dtype: float64
+Trained label:  ['B']
+@distance set summary:
+             Dist
+count  469.000000
+mean     0.921395
+std      0.236332
+min      0.501116
+25%      0.764890
+50%      0.888710
+75%      1.021081
+max      2.379446
+@votes summary:
+Label
+B     3.205452
+M    10.266248
+Name: Dist, dtype: float64
+Trained label:  ['M']
+KnnTraining.__predition:
+                                                 Enti Label Pred
+0   @Label: B ||@Data: 0.252212598798 0.2303009807...   [B]  [B]
+1   @Label: B ||@Data: 0.260731695774 0.2414609401...   [B]  [B]
+2   @Label: B ||@Data: 0.202991149605 0.1099086912...   [B]  [B]
+3   @Label: M ||@Data: 0.30758672914 0.37571863375...   [M]  [M]
+4   @Label: B ||@Data: 0.17412087652 0.18397024010...   [B]  [B]
+5   @Label: B ||@Data: 0.316105826116 0.1839702401...   [B]  [B]
+6   @Label: M ||@Data: 0.477968668654 0.5897869462...   [M]  [M]
+7   @Label: B ||@Data: 0.188792654645 0.2532972607...   [B]  [B]
+8   @Label: B ||@Data: 0.370060106962 0.2688535678...   [B]  [B]
+9   @Label: B ||@Data: 0.0752520232855 0.114643219...   [B]  [B]
+10  @Label: B ||@Data: 0.13564295518 0.20189381129...   [B]  [B]
+11  @Label: M ||@Data: 0.581617681859 0.5667906662...   [M]  [M]
+12  @Label: M ||@Data: 0.290075252023 0.1978356442...   [M]  [M]
+13  @Label: M ||@Data: 0.226182024705 0.2850862360...   [M]  [B]
+14  @Label: B ||@Data: 0.242273652326 0.2708826513...   [B]  [B]
+15  @Label: M ||@Data: 0.379052487103 0.5238417314...   [M]  [B]
+16  @Label: B ||@Data: 0.247006483979 0.1859993236...   [B]  [B]
+17  @Label: M ||@Data: 0.644091059681 0.3899222184...   [M]  [M]
+18  @Label: M ||@Data: 0.383312035591 0.5421034832...   [M]  [M]
+19  @Label: B ||@Data: 0.450518245066 0.2901589448...   [B]  [B]
+20  @Label: B ||@Data: 0.273983624402 0.6668921203...   [B]  [B]
+21  @Label: B ||@Data: 0.24085380283 0.12614135948...   [B]  [B]
+22  @Label: M ||@Data: 0.480808367646 0.2262428136...   [M]  [M]
+23  @Label: B ||@Data: 0.344502816035 0.3361515049...   [B]  [B]
+24  @Label: B ||@Data: 0.278716456056 0.2198173824...   [B]  [B]
+Training accuracy: 0.970000
