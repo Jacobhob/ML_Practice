@@ -161,8 +161,12 @@ if __name__ == "__main__":
 	elif sys.argv[1] == "predict":
 		predict()
 	elif sys.argv[1] == "auto":
+		if (len(sys.argv) >= 3):
+			count = int(sys.argv[2])
+		else:
+			count = 1
 		inputDataset()
-		for i in range(0, int(sys.argv[2]), 1):
+		for i in range(0, count, 1):
 			randomShuffle()
 			gridSearch()
 			SVMtrain()
